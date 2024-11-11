@@ -39,3 +39,6 @@ console.log('concat- ',ar4)
 
 const ar5 = [...ar1,...ar2]
 console.log('sporead - ',ar5)
+
+const ar6 = [1,,[5,6,7], 2,3, [7,8]]
+console.log(ar6.flat()) // returns new array with comma sep values
